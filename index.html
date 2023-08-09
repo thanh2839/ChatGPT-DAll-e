@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---<fieldset>
+        Please enter your API Key</a>: <input id="api-key" placeholder="YOUR-API-KEY-HERE">
+    </fieldset>--->
+    <fieldset>
+        <h>Noi dung</h>
+        <br>
+        <textarea id="text-prompt" rows="8" cols="52"></textarea>
+        <div>
+            <button id="button-request">Request</button>
+            <button id="button-requestImg">Request Img</button>
+        </div>
+    </fieldset>
+    <fieldset>
+        <p id="text"></p>
+        <div id="data"></div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <p id="request-status">No request performed yet</p>
+            <div id="image-container"></div>
+        </div>
+    </fieldset>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
